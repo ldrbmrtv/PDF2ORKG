@@ -20,6 +20,7 @@ def get_property_id(class_name):
 with open('output.xmp_metadata.xml', 'r') as f:
     data = f.read()
 
+print(data)
 data = BeautifulSoup(data, 'xml')
 
 title = data.find('hasTitle').get_text()
@@ -45,5 +46,5 @@ result = {'predicates': [],
               'contributions': [{'name': 'Contribution 1',
                                  'values': py_contributions}]}}
 
-with open('paper.json', 'w', encoding = 'utf-8') as f:
+with open('metadata.json', 'w', encoding = 'utf-8') as f:
     dump(result, f, ensure_ascii=False, indent=4)

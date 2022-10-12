@@ -1,0 +1,39 @@
+{
+    "predicates": [],
+    "paper": {
+        "title": "Normalized entropy adjustment for model selection in automated clustering",
+        "authors": [
+            {
+                "label": "Ildar Baimuratov"
+            }
+        ],
+        "researchField": "R278",
+        "contributions": [
+            {
+                "name": "Contribution 1",
+                "values": {
+                    "P32": [
+                        {
+                            "text": "model selection for automated clustering"
+                        }
+                    ],
+                    "P7077": [
+                        {
+                            "text": "A normalized entropy based convex function for cluster labels partition evaluation"
+                        }
+                    ],
+                    "P2": [
+                        {
+                            "text": "adjustment for chance with a new randomness model"
+                        }
+                    ],
+                    "P1": [
+                        {
+                            "text": "in average, the error of the adjusted normalized entropy is 0.375, while the best of the clustering indices has the error 0.625, and vanilla normalized entropy has the error 1"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
