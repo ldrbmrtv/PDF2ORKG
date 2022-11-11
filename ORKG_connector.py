@@ -26,7 +26,7 @@ def upload_paper(paper, update = True):
 
 
 orkg = ORKG(host='https://sandbox.orkg.org/',
-            creds=('baimuratov.i@gmail.com', '8520123JohnVonNeumann!'))
+            creds=('user_email', 'password'))
 
 default_researchfield = 'ResearchField'
 
