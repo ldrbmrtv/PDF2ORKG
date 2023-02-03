@@ -1,35 +1,49 @@
 {
     "predicates": [],
     "paper": {
-        "title": "Normalized entropy adjustment for model selection in automated clustering",
+        "title": "KGMM - A Maturity Model for Scholarly Knowledge Graphs based on Intertwined Human-Machine Collaboration",
         "authors": [
             {
-                "label": "Ildar Baimuratov"
+                "label": "Hassan Hussein"
+            },
+            {
+                "label": "Allard Oelen"
+            },
+            {
+                "label": "Oliver Karras"
+            },
+            {
+                "label": "Sören Auer"
             }
         ],
-        "researchField": "R278",
+        "researchField": "R112120",
         "contributions": [
             {
                 "name": "Contribution 1",
                 "values": {
-                    "P32": [
-                        {
-                            "text": "model selection for automated clustering"
-                        }
-                    ],
                     "P7077": [
                         {
-                            "text": "A normalized entropy based convex function for cluster labels partition evaluation"
-                        }
-                    ],
-                    "P2": [
-                        {
-                            "text": "adjustment for chance with a new randomness model"
+                            "text": "a graded maturity model for scholarly knowledge graphs (KGMM), which specifically focuses on aspects related to the joint, evolutionary curation of knowledge graphs for digital libraries"
                         }
                     ],
                     "P1": [
                         {
-                            "text": "in average, the error of the adjusted normalized entropy is 0.375, while the best of the clustering indices has the error 0.625, and vanilla normalized entropy has the error 1"
+                            "text": "Our model comprises 5 maturity stages with 20 quality measures"
+                        }
+                    ],
+                    "P7072": [
+                        {
+                            "text": "We demonstrate the implementation of our model in a large scale scholarly knowledge graph curation effort"
+                        }
+                    ],
+                    "P32": [
+                        {
+                            "text": "A shortcoming of these existing assessment models is that they do not take the specific aspects of intertwined human-machine curated knowledge graphs into account"
+                        }
+                    ],
+                    "P2": [
+                        {
+                            "text": "For developing and realizing the KGMM we followed a design science approach including the following five-step methodology"
                         }
                     ]
                 }
