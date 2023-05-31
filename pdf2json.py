@@ -61,11 +61,11 @@ def extract_metadata(document, compatibility_mode: bool):
     """
     ## overload method
     if isinstance(document, pikepdf._qpdf.Pdf):
-        return extract_extract_metadata_pikepdf(document, compatibility_mode)
-    elif isinstance(document, IOBase):
+        return extract_metadata_pikepdf(document, compatibility_mode)
+    elif isinstance(document, bytes):
         return extract_metadata_no_deps(document, compatibility_mode)
 
-def extract_extract_metadata_pikepdf(document: pikepdf._qpdf.Pdf, compatibility_mode: bool):
+def extract_metadata_pikepdf(document: pikepdf._qpdf.Pdf, compatibility_mode: bool):
     """
     This method extracts metadata from a PDF file created with SciKGTeX.
     
