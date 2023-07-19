@@ -1,3 +1,4 @@
 beautifulsoup4==4.11.1
 orkg==0.13.6
 pikepdf==6.2.4
+pytest
